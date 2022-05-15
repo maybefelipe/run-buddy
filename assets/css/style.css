@@ -17,6 +17,7 @@ body {
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .header h1 {
@@ -24,7 +25,6 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   header a {
     text-decoration: none;
@@ -38,7 +38,6 @@ body {
     header {background-color: #39a6b2;
     }
     header nav {
-      float: right;
       margin: 7px 0;
     }
     header nav ul li {
